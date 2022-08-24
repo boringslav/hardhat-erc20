@@ -8,6 +8,6 @@ contract OurToken is ERC20 {
     //initial supply 50e18
     //50 * 10**18
     constructor(uint256 initialSupply) ERC20("OurToken", "OT") {
-        _mint(msg.sender, initialSupply)
+        _mint(msg.sender, initialSupply);
     }
 }
